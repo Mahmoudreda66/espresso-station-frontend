@@ -14,13 +14,17 @@
 		url('fonts/FractulAlt-Regular.ttf') format('ttf');
 }
 
-/*font-family: 'FractulAlt-Regular';*/
-
 body,
 html {
 	font-family: 'FranklinGothic';
 	width: 100%;
+	background: #F5F5F5;
+	background: linear-gradient(135deg, #ffffff, #dfdfdf);
 	height: 100%;
+}
+
+body {
+	overflow-x: hidden;
 }
 
 a {
@@ -57,18 +61,21 @@ input[type=number] {
 }
 
 .navbar-toggler {
-	background: #B06C33;
+	background: #0000;
 }
 
 .header {
-	background: #353535;
+	background: #ffffffb3;
 	transition: 0.3s;
-	width: 100%;
+	width: 86%;
+	margin: auto;
+	top: 23px;
+	border-radius: 80px;
 }
 
 .header .nav-link {
-	color: #E4D2C2;
-	font-size: 22px;
+	color: #000;
+	font-size: 20px;
 	margin-right: 20px;
 	transition: 0.3s;
 }
@@ -79,7 +86,7 @@ input[type=number] {
 }
 
 .header .navbar-brand img {
-	width: 100px;
+	width: 70px;
 	transition: 0.3s;
 }
 
@@ -165,12 +172,6 @@ input[type=number] {
 	margin-bottom: 50px;
 }
 
-.services .title-section::first-letter,
-.equipment .title-section::first-letter,
-.brand .title-section::first-letter {
-	color: #A76E36;
-}
-
 .about-services p,
 .about-services label {
 	text-align: center;
@@ -218,20 +219,21 @@ input[type=number] {
 }
 
 .equipment-tabs .nav-tabs {
-	background-color: #353535;
+	background-color: #61360b;
+	border-radius: 150px;
 }
 
 .equipment-tabs .nav-tabs .nav-link {
-	color: #ACA9A7;
+	color: #fff;
 	font-size: 18px;
-	border-radius: 0;
+	border-radius: 150px;
 	border: 0;
 	padding: 15px 0px;
 	margin: 0;
 }
 
 .nav-pills .nav-link:hover {
-	color: #BE8D5D;
+	color: #dfd1c2;
 }
 
 .nav-pills .nav-link.active,
@@ -241,11 +243,12 @@ input[type=number] {
 }
 
 .equipment-item .card {
-	border-radius: 0;
+	border-radius: 25px;
 	border: 0;
 	border-bottom: 1px solid rgb(53 53 53 / 35%);
 	margin-bottom: 25px;
 	padding-bottom: 25px;
+	background-color: #f9f9f9;
 }
 
 .equipment-item .card:last-child {
@@ -253,8 +256,11 @@ input[type=number] {
 }
 
 .equipment-item .card-img {
-	background-color: #353535;
+	background: #3E5151;
+	background: linear-gradient(to bottom, #e0dfdd, #383838);
 	border-radius: 25px;
+	margin: 20px;
+	margin-bottom: 0px;
 	padding: 30px;
 }
 
@@ -294,6 +300,7 @@ input[type=number] {
 .brand {
 	background: rgb(228, 210, 194);
 	background: linear-gradient(180deg, rgba(228, 210, 194, 0) 0%, rgba(228, 210, 194, 0.5047268907563025) 50%, rgba(228, 210, 194, 1) 100%);
+	background-repeat: no-repeat;
 	overflow: hidden;
 }
 
@@ -316,7 +323,7 @@ input[type=number] {
 }
 
 .footer {
-	background: #353535;
+	background-image: linear-gradient(225deg, #c68364, #573425);
 }
 
 .footer .logo-footer img {
@@ -326,13 +333,15 @@ input[type=number] {
 
 .footer .links-footer h2,
 .footer .address h2 {
-	color: #B06C33;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 25px;
 }
 
 .footer .links-footer ul li a,
 .footer .address ul li,
 .footer .address ul li a {
-	color: #E4D2C2;
+	color: #fff;
 	font-size: 18px;
 	margin-bottom: 3px;
 	display: inline-flex;
@@ -362,7 +371,7 @@ input[type=number] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #B06C33;
+	background: #fff;
 	color: #353535;
 	font-size: 20px;
 	margin-right: 10px;
@@ -376,7 +385,7 @@ input[type=number] {
 }
 
 .copyright {
-	color: #E4D2C2;
+	color: #fff;
 }
 
 .mt-header {
@@ -451,6 +460,15 @@ textarea.form-control {
 		display: none;
 	}
 
+	.header {
+		border-radius: 20px;
+		width: 95%;
+		padding: 0px 10px;
+	}
+
+	.about .about-text {
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 1199.9px) {

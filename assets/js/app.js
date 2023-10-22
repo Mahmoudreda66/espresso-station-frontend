@@ -22,3 +22,5 @@ $('.contact-form').submit(function () {
     });
     return false;
 });
+
+new WOW().init();
