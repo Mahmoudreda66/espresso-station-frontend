@@ -24,3 +24,18 @@ $('.contact-form').submit(function () {
 });
 
 new WOW().init();
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 0,
+    rtl: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: false,
+    animateIn: 'fadeIn',
+    responsive: {
+        0: {
+            items: 1
+        }
+    }
+})
