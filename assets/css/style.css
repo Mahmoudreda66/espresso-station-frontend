@@ -115,19 +115,23 @@ input[type=number] {
 	height: 100%;
 }
 
+.intro .container {
+	top: 250px;
+}
+
 .intro .text-intro h1 {
-	color: #ffffff;
+	color: #e4d2c2;
 	font-weight: bold;
 	font-size: 40px;
 }
 
 .intro .text-intro h2 {
-	color: #ffffff;
+	color: #e4d2c2;
 	font-size: 40px;
 }
 
 .intro .text-intro p {
-	color: #fff;
+	color: #e4d2c2;
 	margin-top: 25px;
 	font-size: 24px;
 }
@@ -197,14 +201,12 @@ input[type=number] {
 
 .about .about-text {
 	color: #353535;
-	font-size: 30px;
+	font-size: 25px;
 	text-align: justify;
 }
 
 .about .img-about-us img {
-	width: 100%;
-	height: auto;
-	max-height: 500px;
+	width: 80%;
 	border-radius: 25px;
 	position: relative;
 	z-index: 1;
@@ -219,12 +221,12 @@ input[type=number] {
 }
 
 .equipment-tabs .nav-tabs {
-	background-color: #61360b;
+	background-color: #e4d2c2;
 	border-radius: 150px;
 }
 
 .equipment-tabs .nav-tabs .nav-link {
-	color: #fff;
+	color: #000;
 	font-size: 18px;
 	border-radius: 150px;
 	border: 0;
@@ -314,7 +316,7 @@ input[type=number] {
 	width: auto;
 	height: 150px;
 	object-fit: contain;
-	max-width: 100%;
+	max-width: 50%;
 	transition: 0.3s;
 }
 
@@ -323,7 +325,7 @@ input[type=number] {
 }
 
 .footer {
-	background-image: linear-gradient(225deg, #c68364, #573425);
+	background-color: #9a8f85;
 }
 
 .footer .logo-footer img {
@@ -335,7 +337,6 @@ input[type=number] {
 .footer .address h2 {
 	color: #fff;
 	font-weight: bold;
-	margin-bottom: 25px;
 }
 
 .footer .links-footer ul li a,
@@ -450,14 +451,22 @@ textarea.form-control {
 	font-size: 24px;
 }
 
-
-
-
-
-
 @media (max-width: 1399.9px) {
 	.about .img-about-us .back-about {
 		display: none;
+	}
+
+	.title-section {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.intro .container {
+		top: 50px;
+	}
+
+	.header .navbar-brand img {
+		width: 50px;
 	}
 
 	.header {
