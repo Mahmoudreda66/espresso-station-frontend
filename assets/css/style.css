@@ -115,7 +115,7 @@ input[type=number] {
 }
 
 .intro .container {
-	top: 200px;
+	top: 250px;
 }
 
 .intro .text-intro h1 {
@@ -234,7 +234,7 @@ input[type=number] {
 }
 
 .nav-pills .nav-link:hover {
-	color: #dfd1c2;
+	color: brown;
 }
 
 .nav-pills .nav-link.active,
@@ -299,8 +299,8 @@ input[type=number] {
 
 
 .brand {
-	background: rgb(228, 210, 194);
-	background: linear-gradient(180deg, rgba(228, 210, 194, 0) 0%, rgba(228, 210, 194, 0.5047268907563025) 50%, rgba(228, 210, 194, 1) 100%);
+	/* background: rgb(228, 210, 194); */
+	/* background: linear-gradient(180deg, rgba(228, 210, 194, 0) 0%, rgba(228, 210, 194, 0.5047268907563025) 50%, rgba(228, 210, 194, 1) 100%); */
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
