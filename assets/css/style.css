@@ -130,7 +130,7 @@ input[type=number] {
 }
 
 .intro .text-intro p {
-	color: #e4d2c2;
+	color: #d7d8d8;
 	margin-top: 25px;
 	font-size: 24px;
 }
@@ -205,7 +205,7 @@ input[type=number] {
 }
 
 .about .img-about-us img {
-	width: 80%;
+	width: 60%;
 	border-radius: 25px;
 	position: relative;
 	z-index: 1;
@@ -213,9 +213,9 @@ input[type=number] {
 
 .img-about-us .back-about {
 	position: absolute !important;
-	width: 650px !important;
-	right: -60px;
-	top: -50px;
+	width: 550px !important;
+	left: 33px;
+	top: -100px;
 	z-index: 0 !important;
 }
 
@@ -329,7 +329,7 @@ input[type=number] {
 
 .footer .logo-footer img {
 	width: auto;
-	height: 200px;
+	height: 150px;
 }
 
 .footer .links-footer h2,
@@ -452,7 +452,7 @@ textarea.form-control {
 
 @media (max-width: 1399.9px) {
 	.about .img-about-us .back-about {
-		display: none;
+		display: 6one;
 	}
 
 	.title-section {
@@ -519,7 +519,7 @@ textarea.form-control {
 	}
 
 	.about .img-about-us img {
-		margin-bottom: 30px;
+		margin-bo6tom: 30px;
 	}
 
 	.equipment-tabs .nav-pills {
