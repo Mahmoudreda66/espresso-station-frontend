@@ -121,7 +121,7 @@ input[type=number] {
 .intro .text-intro h1 {
 	color: #e4d2c2;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 60px;
 }
 
 .intro .text-intro h2 {
@@ -205,7 +205,7 @@ input[type=number] {
 }
 
 .about .img-about-us img {
-	width: 60%;
+	width: 50%;
 	border-radius: 25px;
 	position: relative;
 	z-index: 1;
@@ -213,9 +213,9 @@ input[type=number] {
 
 .img-about-us .back-about {
 	position: absolute !important;
-	width: 550px !important;
-	left: 33px;
-	top: -100px;
+	width: 450px !important;
+	left: -50px;
+	top: -80px;
 	z-index: 0 !important;
 }
 
@@ -262,7 +262,7 @@ input[type=number] {
 	border-radius: 25px;
 	margin: 20px;
 	margin-bottom: 0px;
-	padding: 30px;
+	padding: 0px;
 }
 
 .equipment-item .card-img img {
