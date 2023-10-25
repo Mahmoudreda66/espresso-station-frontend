@@ -519,17 +519,14 @@ textarea.form-control {
 	}
 
 	.about .img-about-us img {
-		margin-bo6tom: 30px;
+		margin-bottom: 30px;
 	}
 
 	.equipment-tabs .nav-pills {
 		display: grid;
 		grid-auto-flow: column;
-		scroll-behavior: auto;
-		overflow-y: auto;
-		overscroll-behavior-x: contain;
-		scroll-snap-type: x mandatory;
-		scrollbar-width: none;
+		overflow-y: hidden;
+		overflow-x: auto;
 		margin-bottom: 20px;
 	}
 
