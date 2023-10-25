@@ -534,7 +534,6 @@ textarea.form-control {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: max-content;
 	}
 
 	.equipment-tabs .nav-tabs .nav-link {
