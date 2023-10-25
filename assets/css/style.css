@@ -461,7 +461,7 @@ textarea.form-control {
 	}
 
 	.intro .container {
-		top: 50px;
+		top: 250px;
 	}
 
 	.header .navbar-brand img {
@@ -487,7 +487,7 @@ textarea.form-control {
 
 @media (max-width: 991.9px) {
 	.intro .text-intro h1 {
-		font-size: 30px !important;
+		font-size: 26px !important;
 	}
 
 	.brand a img {
@@ -581,10 +581,6 @@ textarea.form-control {
 }
 
 @media (max-width: 500px) {
-	.intro .text-intro h1 {
-		font-size: 35px;
-	}
-
 	.services .img-services .img-services-text {
 		position: relative;
 		bottom: 20px;
